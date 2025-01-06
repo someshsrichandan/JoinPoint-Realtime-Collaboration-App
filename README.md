@@ -29,8 +29,8 @@ To run JoinPoint locally, follow these steps:
 
 ### **1. Clone the Repository**
 ```bash
-git clone https://github.com/yourusername/joinpoint.git
-cd joinpoint
+[git clone https://github.com/yourusername/joinpoint.git](https://github.com/someshsrichandan/JoinPoint-Realtime-Collaboration-App)
+cd JoinPoint-Realtime-Collaboration-App
 ```
 
 ### **2. Install Dependencies**
