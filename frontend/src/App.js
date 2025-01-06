@@ -1,22 +1,21 @@
-import React from 'react';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import Login from './components/Login';
-import Register from './components/Register';
-import Navbar from './components/Navbar';
-import LandingPage from './components/LandingPage';
-import "./App.css"
+import './App.css';
+import { Routes, Route } from "react-router-dom";
+import Home from './components/Home';
+import EditorPage from './components/EditorPage';
+import { Toaster } from 'react-hot-toast';
 
 function App() {
-    return (
-        <Router>
-            <Navbar />
-            <Routes>
-                <Route path="/" element={<LandingPage/>} />
-                <Route path="/login" element={<Login/>} />
-                <Route path="/register" element={<Register/>} />
-            </Routes>
-        </Router>
-    );
+  return (
+    <>
+    <div>
+      <Toaster  position='top-center'></Toaster>
+    </div>
+    <Routes>
+     <Route path='/' element={ <Home /> } />
+     <Route path='/editor/:roomId' element={ <EditorPage /> } />
+    </Routes>
+    </>
+  );
 }
 
 export default App;
