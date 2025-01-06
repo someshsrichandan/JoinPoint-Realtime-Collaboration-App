@@ -34,16 +34,24 @@ cd joinpoint
 ```
 
 ### **2. Install Dependencies**
-```bash
-npm install
-```
 
-### **3. Run the Development Server**
+#### Backend Setup
 ```bash
+cd server
+npm install
 npm start
 ```
+The server will run on [http://localhost:5000](http://localhost:5000).
 
-The app will be available at [http://localhost:3000](http://localhost:3000).
+#### Frontend Setup
+```bash
+cd ../frontend
+npm install
+npm start
+```
+The frontend will run on [http://localhost:3000](http://localhost:3000).npm install
+npm start
+```
 
 ---
 
@@ -102,7 +110,7 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 ## **Contact**
 
-For questions, suggestions, or feedback, reach out at [contact@jayadevrana.com](mailto:contact@jayadevrana.com).
+For questions, suggestions, or feedback, reach out at [someshsrichandan@gmail.com](mailto:someshsrichandan@gmail.com).
 
 ---
 
